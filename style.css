@@ -162,6 +162,8 @@ html,body{
     height: 20vh;
     max-width: 100%;
     display: flex;
+    position: absolute;
+    top: 1%;
     justify-content: space-evenly;
 }
 .dell{

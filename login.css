@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f2f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    font-size: 3vh;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+#forgot-password , #signup-link ,#back-to-login,#back-to-login-from-reset{
+    font-size: 36px;
+
+}
+#login-email , #login-password , #signup-email ,#signup-password , #reset-email{
+    height: 3.5vh;
+    font-size: 2vh;
+}
+button:hover {
+    background: #0056b3;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.form-footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}

@@ -16,9 +16,9 @@ html,body{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
 
 }
-.box{
+/* .box{
     border: 2px solid black;
-}
+} */
 .div1{
     grid-column-start: 1;
     grid-column-end: 6;
@@ -163,7 +163,7 @@ html,body{
     max-width: 100%;
     display: flex;
     position: absolute;
-    top: 1%;
+    top: -1%;
     justify-content: space-evenly;
 }
 .dell{

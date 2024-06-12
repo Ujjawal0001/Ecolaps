@@ -140,6 +140,10 @@ html,body{
     .search-bar{
         border: none
     }
+    .div2,.div3,.div4{
+    margin-top: 0vh;
+
+    }
 }
 .profilediv{
     height: 50%;
@@ -168,7 +172,7 @@ html,body{
     height: 20vh;
     max-width: 100%;
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     /* top: 1%; */
     justify-content: space-evenly;
    
